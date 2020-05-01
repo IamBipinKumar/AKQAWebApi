@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQAWebAPI", "AKQAWebAPI\AKQAWebAPI.csproj", "{D643CCE1-1A5B-4C81-8D2E-6A084F1A901B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQAWebAPI.Tests", "AKQAWebAPI.Tests\AKQAWebAPI.Tests.csproj", "{390131C5-2730-4026-896C-DF63AAAE3BC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQA.Utilities", "AKQA.Utilities\AKQA.Utilities.csproj", "{B14711B7-2325-4368-8EB1-10D6EC275111}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{9112D70A-A7EB-4475-BCBE-18DDD5D0BACD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{040AAD46-4F00-4CF9-A350-D5675871DB8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{590FBC9A-AC6E-4F3D-ADA2-20539DA76261}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D643CCE1-1A5B-4C81-8D2E-6A084F1A901B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D643CCE1-1A5B-4C81-8D2E-6A084F1A901B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D643CCE1-1A5B-4C81-8D2E-6A084F1A901B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D643CCE1-1A5B-4C81-8D2E-6A084F1A901B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390131C5-2730-4026-896C-DF63AAAE3BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390131C5-2730-4026-896C-DF63AAAE3BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390131C5-2730-4026-896C-DF63AAAE3BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390131C5-2730-4026-896C-DF63AAAE3BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14711B7-2325-4368-8EB1-10D6EC275111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14711B7-2325-4368-8EB1-10D6EC275111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14711B7-2325-4368-8EB1-10D6EC275111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14711B7-2325-4368-8EB1-10D6EC275111}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D643CCE1-1A5B-4C81-8D2E-6A084F1A901B} = {9112D70A-A7EB-4475-BCBE-18DDD5D0BACD}
+		{390131C5-2730-4026-896C-DF63AAAE3BC5} = {590FBC9A-AC6E-4F3D-ADA2-20539DA76261}
+		{B14711B7-2325-4368-8EB1-10D6EC275111} = {040AAD46-4F00-4CF9-A350-D5675871DB8E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74A38738-D96B-40A0-A2DC-D0D7530A06E3}
+	EndGlobalSection
+EndGlobal
